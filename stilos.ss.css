@@ -1,0 +1,143 @@
+/* 1-Not.css */
+
+/* Estilizando o corpo da página */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilizando o artigo */
+article {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(255, 242, 242);
+}
+
+article h2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+article p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+article hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+/* Estilizando a imagem */
+div.pri img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+/* Estilizando as seções de parágrafos */
+article p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Estilizando links */
+article a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilizando o rodapé */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilizando links no rodapé */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.noticia{ color: #030303;
+
+}
+
+.noticia {
+    border: 1px solid #f306ff;
+    padding: 20px;
+    background-color: #f1cff6;
+    margin: 30px;
+    width: 300px; /* Ajuste a largura desejada */
+    height: 200px; /* Ajuste a altura desejada */
+    display: inline-block;
+}
+
+main{
+
+    display: flex;
+    justify-content: space-around ; 
+    flex-wrap: wrap;
+}
+
+.class {  color: #fff;
+    text-decoration: none;
+    
+}
+
+.introducao { color: #000000;
+}
+
+.introducao {
+   
+    display: block;
+    justify-content: center;
+    border: 1px solid #FF00FF;
+    padding: 50px;
+    background-color : #f1cff6;
+    margin: 0 auto;
+    width: 1320px;
+    text-align: center;
+    flex-direction : column;
+}

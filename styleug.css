@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fundo.ugg.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #000000; /* Define a cor do texto para ser visível no fundo */
+}
+
+header {
+    background-color: #050404;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    margin: 45px;
+    padding: 30px;
+    border: 1px solid #f700ff;
+    background-color: #f4bff7;
+}
+
+iframe {
+    width: 100%;
+    height: 315px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.p{ 
+display: flex;
+font-size: 1.5em;
+margin-block-start: 0.83em;
+margin-block-end: 0.83em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.section1 
+
+display: flex; 

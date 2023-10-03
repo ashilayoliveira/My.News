@@ -1,2 +1,2 @@
-# My.News
-Uma proposta de multiverso Geek.
+# mysite
+ depois eu mexo
